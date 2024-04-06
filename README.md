@@ -14,3 +14,19 @@ Our CapsNet architecture consists of the following components:
 
 
 # Training
+Data Preprocessing: Images are preprocessed to enhance contrast, normalize intensities, and remove noise.
+Model Training: The CapsNet is trained using labeled histology images. We employ an additional reconstruction loss to improve capsule activation and encode instantiation parameters.
+Evaluation: We evaluate the model’s performance using metrics such as accuracy, precision, recall, and F1-score.
+Results
+Our improved CapsNet demonstrates promising results compared to traditional CNN-based algorithms. It effectively classifies breast cancer histology images, aiding in early diagnosis and treatment planning.
+
+Dependencies
+Python 3.x
+TensorFlow or PyTorch (for implementing CapsNets)
+Numpy, Matplotlib, and other relevant libraries
+Usage
+Data Preparation: Download the breast cancer histology dataset and preprocess the images.
+Model Training: Train the CapsNet using the provided scripts.
+Evaluation: Evaluate the model’s performance on a validation set.
+Inference: Use the trained model for breast cancer classification.
+Acknowledgments
