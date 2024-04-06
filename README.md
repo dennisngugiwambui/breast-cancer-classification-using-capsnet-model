@@ -11,4 +11,6 @@ Our CapsNet architecture consists of the following components:
 1. Primary Capsules: These capsules extract low-level features from input images.
 2. Routing by Agreement: Capsules communicate with each other to form higher-level features. The routing mechanism ensures that capsules agree on the presence of specific features.
 3. Classification Capsules: These capsules are responsible for classifying the input images into different breast cancer categories (e.g., benign, malignant).
-Training
+
+
+# Training
